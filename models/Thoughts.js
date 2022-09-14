@@ -31,10 +31,11 @@ const ReactionSchema = new Schema(
 );
 
 const ThoughtSchema = new Schema ({
-    thoughtBody: {
+    thoughtText: {
         type: String,
         required: true,
-        maxlength: 300
+        minlength: 1,
+        maxlength: 280
     },
     username: {
         type: String,
