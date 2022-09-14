@@ -7,5 +7,5 @@ router.use((req, res) => {
 });
 
 
-module.exports = Router;
+module.exports = router;
 
